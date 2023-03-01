@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+header{
+    font-size: x-large;
+    padding: 20px;
+}
+footer{
+    font-size: small;
+}
+.container{
+    display: block;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form{
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#users{
+    background-color: cornflowerblue;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+table{
+    margin: 0 auto;
+}
+label{
+    text-align: right;
+    margin: 5px;
+}
+input{
+margin: 5px;
+}
+button{
+    grid-column: span 2;
+    width: 90%;
+    margin: auto;
+}
